@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Page Title -->
+  <title>Home</title>
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+	<!-- Jquery Javascript File -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+	<!-- Bootstrap Javascript File -->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+	<!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!-- w3schools -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style>
+    #most-well-known-artwork{
+      position: relative;
+      padding: 20px 0px;
+      height: 515px;
+    }
+
+    @media screen and (max-width: 1200px){
+      #most-well-known-artwork{
+        height: 440px;
+      }
+    }
+
+    @media screen and (max-width: 990px){
+      #most-well-known-artwork{
+        height: 330px
+      }
+    }
+
+    @media screen and (max-width: 767px){
+      #most-well-known-artwork{
+        height: 250px
+      }
+    }
+
+    .introbtn{
+      position: absolute;
+      top: 88%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      font-size: 57px;
+      background-color: transparent;
+      color: #282828;
+      border: transparent;
+    }
+
+    .introbtn:hover a{
+      color: #5e5e5e;
+    }
+
+    .card_text{
+      margin: 0px;
+      text-align: justify-all;
+      text-justify: inter-word;
+    }
+
+  </style>
+
+</head>
+
+<body style="font-family:'Roboto Condensed', sans-serif; background-color: #282828;">
+  <header>
+    <!-- Navigation Bar -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #282828">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i style="color: #727272; font-size: 150%;" class="fas fa-bars"></i>
+			</button>
+
+      <a class="navbar-brand" href="#"></a>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<div class="dropdown-divider"></div>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="famouspaintings.html">Famous Paintings</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="sculptures.html">Sculptures</a>
+          </li>
+					<div class="dropdown-divider"></div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Other Paintings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Books</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Photography</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Furniture</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="collaborations.html">Collaborations</a>
+            </div>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="symbols.html">Symbols</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quotes</a>
+          </li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+  <!-- Go to the top Button -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-sort-up"></i><br>Top</button>
+
+  <!-- Image of Salvador Dali and his Name -->
+  <div class="salvador_dali_image">
+  	<div class="salvador_dali_name">Salvador Dali</div>
+      <button class="introbtn"><a href="#sec"><i class="fas fa-arrow-circle-down fa-sm"></i></a></button>
+  </div>
+
+  <!-- Most Famous Painting: The Persistence of Memory -->
+  <div id="sec" style="background-color: #c4bdac;padding: 40px 0px;">
+    <div id="most-well-known-artwork" class="container">
+      <a href="famouspaintings.html#the_persistence_of_memory">
+        <img src="assets/images/the_persistence_of_memory.jpg" id="the_persistence_of_memory_image" alt="The Persistence Of Memory" style="width:60%;float: right;margin: 0px 20px;">
+      </a>
+
+      <div class="text-block" style="line-height: 100%;">
+        <p style="margin-bottom: 2px;margin-top: 0px;"><b>The Persistence of Memory</b></p>
+        <a href="famouspaintings.html#the_persistence_of_memory">
+          <button class="button clicktoreadmore" style="padding: 0px 10px;border-radius: 15px;margin: 0px;">Click to Read More</button>
+        </a>
+      </div>
+    </div>
+    <br>
+  </div>
+
+  <!-- Embbedded Video about Salvador Dali -->
+  <!-- <section style="background-color: white;">
+      <br><br><br>
+      <iframe class="responsive-iframe" src="http://content.jwplatform.com/players/4C3hHCRw-IXU6no1G.html" width="480" height="270" frameborder="0" scrolling="auto" style="margin-left: auto;margin-right: auto;display: block;"></iframe>
+      <p>https://www.goalcast.com/2019/03/27/salvador-dali-quotes/</p>
+      <br><br><br>
+  </section> -->
+
+  <!-- Salvador Dali's Works -->
+  <!-- Section 1 -->
+  <section id="sec1" style="background-color: white;">
+    <div id="paintings_block_design"></div>
+  	<!-- Salvador Dali well-known Artworks -->
+
+  	<div class="paintings_row" style="padding-bottom: 130px;">
+      <div class="paintings_column">
+      	<!-- Swans Reflecting Elephants -->
+        <div class="card">
+          <!-- Image -->
+        	<a href="famouspaintings.html#swans_reflecting_elephants">
+            <img src="assets/images/swans_reflecting_elephants.jpg" alt="Swans Reflecting Elephants" class="card_image" style="width:100%;">
+          </a>
+          <div class="container">
+            <!-- Title of Artwork -->
+          	<h4><b>SWANS REFLECTING ELEPHANTS</b></h4>
+            <!-- Description of Artwork -->
+            <p class="card_text">
+              Swans Reflecting Elephants is considered a landmark painting in Surrealism as it enhanced the popularity of the double-image style. It is the most famous double image created by Salvador Dali...
+            </p>
+            <!-- Read More Button -->
+            <a href="famouspaintings.html#swans_reflecting_elephants">
+            	<button class="button readmore">Read More</button>
+          	</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="paintings_column">
+        <!-- The Persistance Of Memory -->
+        <div class="card">
+          <!-- Image -->
+          <a href="famouspaintings.html#the_persistence_of_memory">
+            <img src="assets/images/the_persistence_of_memory.jpg" alt="The Persistence Of Memory" class="card_image" style="width:100%;">
+          </a>
+          <div class="container">
+            <!-- Title of Artwork -->
+            <h4><b>THE PERSISTENCE OF MEMORY</b></h4>
+            <!-- Description of Artwork -->
+            <p class="card_text">
+              The Persistence of Memory is considered one of the greatest masterpieces of twentieth century art. It is not only the most famous painting of Salvador Dali but also the most renowned artwork in Surrealism...
+            </p>
+            <!-- Read More Button -->
+            <a href="famouspaintings.html#the_persistence_of_memory">
+              <button class="button readmore">Read More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="paintings_column">
+        <!-- Metamorphosis Of Narcissus -->
+        <div class="card">
+          <!-- Image -->
+          <a href="famouspaintings.html#metamorphosis_of_narcissus">
+            <img src="assets/images/metamorphosis_of_narcissus.jpg" alt="Metamorphosis Of Narcissus" class="card_image" style="width:100%">
+          </a>
+          <div class="container">
+          	<!-- Title of Artwork -->
+            <h4><b>METAMORPHOSIS OF NARCISSUS</b></h4>
+            <!-- Description of Artwork -->
+            <p class="card_text">
+              This painting shows Narcissus, renowned for his beauty, falling in love with his own reflection in the water. Salvador Dali used the paranoiac-critical method to tap into his subconscious through systematic irrational thought and...
+            </p>
+            <!-- Read More Button -->
+            <a href="famouspaintings.html#metamorphosis_of_narcissus">
+                <button class="button readmore">Read More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Salvador Dali's Quotes -->
+  <div id="quotes_carousel" class="carousel slide" data-ride="carousel" style="background-color: #e0e0e0;">
+    <ol class="carousel-indicators">
+      <li data-target="#quotes_carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#quotes_carousel" data-slide-to="1"></li>
+      <li data-target="#quotes_carousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="w3-panel" style="padding: 20px 60px;text-align: center;height: 300px;background-color: #e0e0e0;">
+          <p class="w3-xlarge" style="margin: 0px;color: #999999;line-height: 93%;padding-top: 105px;">
+            <i><b style="color: #282828;">A true artist</b> is not one who is <b style="color: #282828;">inspired</b>, but one <b style="color: #282828;">who inspires others</b>.</i>
+          </p>
+          <p>~ Salvador Dali</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="w3-panel" style="padding: 20px 60px;text-align: center;height: 300px;background-color: #e0e0e0;">
+          <p id="quote_text" class="w3-xlarge" style="margin: 0px;line-height: 93%;" >
+            <i><b style="color: #282828;">Surrealism is not a movement. It is a latent state of mind perceivable through the powers of dream and nightmare.</b></i>
+          </p>
+          <p>~ Salvador Dali</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="w3-panel" style="padding: 20px 60px;text-align: center;height: 300px;background-color: #e0e0e0;">
+          <p class="w3-xlarge" style="margin: 0px;line-height: 93%;padding-top: 105px;">
+            <i><b style="color: #282828;">Have no fear of perfection. You'll never reach it.</b></i>
+          </p>
+          <p>~ Salvador Dali</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#quotes_carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#quotes_carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+	<!-- Section 2 -->
+	<section id="sec2" style="background-color: white;">
+    <br><br>
+    <div class="sec2_row">
+      <div class="sec2_column sec2_left">
+        <a href="symbols.html">
+          <img src="assets/images/dali_melting_clock.jpg" id="dali_melting_clock_symbol_image" alt="Dali Melting Clocks Symbol Image" style="width:100%;">
+        </a>
+      </div>
+      <div class="sec2_column sec2_right">
+        <div id="sec2_block_design">
+          <h4 style="color: #282828;text-align: justify-all;font-weight: bold;margin: 0px;">Dalí Melting Clocks</h4>
+          <p style="color: #282828;text-align: justify-all;margin-bottom: 3px;">The famous melting clocks represent the omnipresence of time. They represent time devouring itself. His inspiration for melting clocks came from the surreal way where he saw a piece of cheese melting in the sun.
+          </p>
+          <a href="symbols.html#dali_melting_clock">
+            <button class="button clicktoreadmore" style="padding: 6px 12px;border-radius: 15px;margin: 0px;">Click to Read More</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <br>
+	</section>
+
+  <!-- Section 3 -->
+  <!-- <section id="sec3" style="background-color: white;">
+      <br><br>
+      <div class="sec3_row">
+        <div class="sec3_column sec3_left">
+          <img src="assets/images/photo-placeholder.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="sec3_column sec3_right">
+          <img src="assets/images/photo-placeholder.jpg" alt="" style="width:100%;padding-top: 7%;">
+        </div>
+      </div>
+      <br>
+  </section> -->
+
+	<!-- Footer -->
+	<footer style="background-color: #282828;">
+		<div class="footer">
+			<p style="padding: 15px 10px 0px">Copyright 2020 All Rights Reserved</p>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script>
+		//when user scrolls down 20px from the top of the page, show 'Top' button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("topBtn").style.display = "block";
+			} else {
+				document.getElementById("topBtn").style.display = "none";
+			}
+		}
+
+		//when user clicks on 'Top' button, scroll to the top of the page
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+</html>
