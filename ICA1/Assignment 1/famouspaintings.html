@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Page Title -->
+  <title>Famous Paintings</title>
+
+	<!-- Style CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/global.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/famouspaintings.css">
+
+	<!-- Jquery Javascript File -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+	<!-- Bootstrap Javascript File -->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+	<!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!-- w3schools -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style>
+    .show_image {
+      display: none;
+    }
+
+    @media screen and (max-width: 800px) {
+      .show_image {
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      .hide_image {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body style="font-family: 'Roboto Condensed', sans-serif; background-color: #282828">
+  <header>
+    <!-- Navigation Bar -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #282828">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i style="color: #727272; font-size: 150%;" class="fas fa-bars"></i>
+			</button>
+
+      <a class="navbar-brand" href="#"></a>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<div class="dropdown-divider"></div>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item active">
+            <a class="nav-link" href="famouspaintings.html">Famous Paintings<span class="sr-only">(current)</span></a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="sculptures.html">Sculptures</a>
+          </li>
+					<div class="dropdown-divider"></div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Other Paintings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Books</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Photography</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Furniture</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="collaborations.html">Collaborations</a>
+            </div>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="symbols.html">Symbols</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quotes</a>
+          </li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+  <section id="sec1" style="background-color: white;padding-top: 80px;">
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-sort-up"></i><br>Top</button>
+
+    <!-- Page Heading -->
+    <h1 style="margin: 0px;text-align: center;"><b>Famous Paintings</b></h1>
+
+    <!-- The Persistence of Memory -->
+    <div id="the_persistence_of_memory" class="row" style="padding-top: 55px;">
+			<div class="column">
+        <!-- Image -->
+				<img src="assets/images/the_persistence_of_memory.jpg" alt="The Persistence of Memory" style="width:100%">
+			</div>
+
+			<div class="column">
+        <!-- Title of Artwork -->
+				<h4><b>THE PERSISTENCE OF MEMORY</b></h4>
+        <!-- Artwork Information -->
+        <p style="margin: 0px;text-align: justify;text-justify: inter-word;">
+          <u>The Persistence of Memory (1931)</u><br>This painting depicts clocks melting on a deserted landscape. The contrasting use of hard and soft represents the realities of the world. It can be interpreted like the human mind moving from the softness of sleep to the hardness of reality. The melting clocks are an unconscious symbol of the relativity of space and time, especially when we are dreaming. The ants symbolise decay, with how we keep track of time in our daily lives. The Persistence of Memory is considered one of the greatest masterpieces of twentieth century art. It is not only the most famous painting of Salvador Dali but also the most renowned artwork in Surrealism.
+        </p>
+			</div>
+    </div>
+
+	  <br><br>
+
+    <!-- Swans Reflecting Elephants -->
+	  <div id="swans_reflecting_elephants" class="row" style="padding-top: 53px;">
+			<div class="column">
+        <!-- Image -->
+				<img class="show_image" src="assets/images/swans_reflecting_elephants.jpg" alt="Swans Reflecting Elephants" style="width:100%">
+        <!-- Title of Artwork -->
+				<h4><b>SWANS REFLECTING ELEPHANTS</b></h4>
+        <!-- Artwork Information -->
+        <p style="margin: 0px;text-align: justify;text-justify: inter-word;">
+          <u>Swans Reflecting Elephants (1937)</u><br>This painting uses the reflection in a lake to create a double image. The three swans in front of the trees are reflected in the lake so that their necks become the elephants’ trunks and the trees become the legs of the elephants. Swans Reflecting Elephants is considered a landmark painting in Surrealism as it enhanced the popularity of the double-image style. It is the most famous double image created by Salvador Dali; his greatest masterpiece using the paranoiac-critical method; and one of the most well-known works in Surrealism.
+        </p>
+			</div>
+
+			<div class="column">
+        <!-- Image -->
+        <img class="hide_image" src="assets/images/swans_reflecting_elephants.jpg" alt="" style="width:100%">
+			</div>
+	  </div>
+
+	  <br><br>
+
+    <!-- Metamorphosis of Narcissus -->
+		<div id="metamorphosis_of_narcissus" class="row" style="padding-top: 54px;">
+			<div class="column">
+        <!-- Image -->
+				<img src="assets/images/metamorphosis_of_narcissus.jpg" alt="Metamorphosis of Narcissus" style="width:100%">
+			</div>
+
+			<div class="column">
+        <!-- Title of Artwork -->
+				<h4><b>METAMORPHOSIS OF NARCISSUS</b></h4>
+        <!-- Artwork Information -->
+        <p style="margin: 0px;text-align: justify;text-justify: inter-word;">
+          <u>Metamorphosis of Narcissus (1937)</u><br>This painting shows Narcissus, renowned for his beauty, falling in love with his own reflection in the water. Salvador Dali used the paranoiac-critical method to tap into his subconscious through systematic irrational thought and a self-induced paranoid state. This technique in Surrealism was developed by Salvador Dali in the early 1930s. Metamorphosis of Narcissus was created by Dali during his paranoiac-critical period and is among his most renowned works using the technique.
+        </p>
+			</div>
+		</div>
+
+    <br><br>
+
+    <!-- Soft Construction with Boiled Beans -->
+    <div class="row" style="padding-top: 53px;">
+      <div class="column">
+        <!-- Image -->
+        <img class="show_image" src="assets/images/soft-construction-with-beans.jpg" alt="" style="width:100%">
+        <!-- Title of Artwork -->
+        <h4><b>SOFT CONSTRUCTION WITH BOILED BEANS (PREMONITION OF CIVIL WAR)</b></h4>
+        <!-- Artwork Information -->
+        <p style="margin: 0px;text-align: justify;text-justify: inter-word;">
+          <u>Soft Construction with Boiled Beans (1936)</u><br> Salvador Dali suffered from anxiety and had a premonition that a war was impending, due to “the prophetic power of his subconscious mind”. He painted this masterpiece six months before the Spanish Civil War began. It portrays two bodies fighting. The monstrous creature is self-destructive just as a civil war is. The boiled beans referred to the simple stew eaten by the poor during that difficult time. Soft Construction with Boiled Beans is renowned for brilliant use of surrealism to depict the horrors of war.
+        </p>
+      </div>
+
+      <div class="column">
+        <img class="hide_image" src="assets/images/soft-construction-with-beans.jpg" alt="" style="width:100%">
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- The Great Masturbator -->
+    <div class="row" style="padding-top: 55px;">
+      <div class="column">
+        <!-- Image -->
+        <img src="assets/images/the_great_masturbator.jpg" alt="The Great Masturbator" style="width:100%">
+      </div>
+
+      <div class="column">
+        <!-- Title of Artwork -->
+        <h4><b>THE GREAT MASTURBATOR</b></h4>
+        <!-- Artwork Information -->
+        <p style="margin: 0px;text-align: justify;text-justify: inter-word;">
+          <u>The Great Masturbator (1929)</u><br>This is Dali’s most controversial painting. It reflects the erotic transformation that he underwent upon Gala's arrival into his life.  This painting depicts Dali himself sleeping, and from his head, an erotic fantasy of a nude female figure, probably depicting Gala. He also drew fish-hook, the bleeding cuts, ants crawling on his face and a grasshopper. This is viewed by many as a bizarre self-portrait. The Great Masturbator is renowned for glorifying something that is usually ridiculed
+        </p>
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- Galatea of the Spheres -->
+    <div class="row" style="padding-top: 53px;">
+      <div class="column">
+        <!-- Image -->
+        <img class="show_image" src="assets/images/galatea_of_the_spheres.jpeg" alt="" style="width:100%">
+        <!-- Title of Artwork -->
+        <h4><b>GALATEA OF THE SPHERES</b></h4>
+        <!-- Artwork Information -->
+        <p style="margin: 0px;text-align: justify;text-justify: inter-word;">
+          <u>Galatea of the Spheres (1952)</u><br> This painting of his wife, Gala, was inspired by nuclear physics and the theories of disintegration of the atom. Her face is made up of many spheres, representing atomic particles, giving it a three dimensional effect. It depicts the disintegration of multiple atoms. Salvador Dali also used ideas from modern science to understand Christianity. Galatea of the Spheres is one of the most renowned paintings from Dali’s Nuclear Mysticism period.
+        </p>
+      </div>
+
+      <div class="column">
+        <!-- Image -->
+        <img class="hide_image" src="assets/images/galatea_of_the_spheres.jpeg" alt="" style="width:100%">
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- The Great Masturbator -->
+    <div class="row" style="padding-top: 55px;">
+      <div class="column">
+        <!-- Image -->
+        <img src="assets/images/Dream_Caused_by_the_Flight_of_a_Bumblebee_around_a_Pomegranate_a_Second_Before_Awakening.jpg" alt="The Great Masturbator" style="width:100%">
+      </div>
+
+      <div class="column">
+        <!-- Title of Artwork -->
+        <h4><b>DREAM CAUSED BY THE FLIGHT OF A BEE AROUND A POMEGRANATE A SECOND BEFORE AWAKENING</b></h4>
+        <!-- Artwork Information -->
+        <p style="margin: 0px;text-align: justify;text-justify: inter-word;">
+          <u>The Dream Caused by the Flight of a Bee (1944)</u><br>This painting shows Salvador Dali's wife, Gala, sleeping on a rock. Her dream shows a pomegranate releasing a giant red fish and two ferocious tigers coming out from its mouth. This painting was intended “to express for the first time in images Freud’s discovery of the typical dream with a lengthy narrative, the consequence of the instantaneousness of a chance event which causes the sleeper to wake up.” The elephant, is a distorted version of Elephant and Obelisk, a sculpture by famous Italian artist Gian Lorenzo Bernini.
+        </p>
+      </div>
+    </div>
+
+    <br><br>
+
+	</section>
+
+  <section id="test_sect" style="background-color: #ddebdf;">
+    <p id="famouspaintings_title">Famous Paintings TESTTTTTTTTTT EXCUSE MEEE PLS WORK</p>
+    <div class="sec1_row">
+      <div class="sec1_column sec1_left">
+        <img src="assets/images/the_persistence_of_memory.jpg" alt="The Persistence of Memory" style="width:100%;border: 5px solid white;">
+      </div>
+      <div class="sec1_column sec1_right">
+        <div id="sec1_block_design_text">
+          <h4 style="color: #282828;text-align: justify-all;font-weight: bold;margin: 0px;">THE PERSISTENCE OF MEMORY</h4>
+          <p style="color: #282828;text-align: justify-all;margin-bottom: 3px;"><u>The Persistence of Memory (1931)</u><br>This painting depicts clocks melting on a deserted landscape. The contrasting use of hard and soft represents the realities of the world. It can be interpreted like the human mind moving from the softness of sleep to the hardness of reality. The melting clocks are an unconscious symbol of the relativity of space and time, especially when we are dreaming. The ants symbolise decay, with how we keep track of time in our daily lives. The Persistence of Memory is considered one of the greatest masterpieces of twentieth century art. It is not only the most famous painting of Salvador Dali but also the most renowned artwork in Surrealism.
+
+          </p>
+        </div>
+      </div>
+    </div>
+	</section>
+
+  <!-- Footer -->
+	<footer style="background-color: #282828;">
+		<div class="footer">
+			<p style="padding: 15px 10px 0px">Copyright 2020 All Rights Reserved</p>
+		</div>
+	</footer>
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("topBtn").style.display = "block";
+			} else {
+				document.getElementById("topBtn").style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+</body>
+</html>
