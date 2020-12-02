@@ -1,56 +1,160 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#sec1_block_design_bkg{
+  background-color: black;
+  top: 0px;
+  margin-left: 50%;
+  padding: 10px;
+  height: 1050px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1270px){
+  #sec1_block_design_bkg{
+    height: 950px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 960px){
+  #sec1_block_design_bkg{
+    height: 870px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #sec1_block_design_bkg{
+    margin: 170px 30px 0px 10px;
+    border-radius: 10px;
+    height: 300px;
+    transition: 0.6s;
+  }
+}
+
+#sec1_block_design_bkg2{
+  background-color: black;
+  padding: 10px;
+  margin-top: 100px;
+  width: 500px;
+  height: 170px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1270px){
+  #sec1_block_design_bkg2{
+    height: 120px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1015px){
+  #sec1_block_design_bkg2{
+    width: 440px;
+    height: 90px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #sec1_block_design_bkg2{
+    margin-top: 50px;
+    height: 80px;
+    transition: 0.6s;
+  }
+}
+
 #sculptures_title{
   color: black;
-  padding-top: 30px;
+  margin-right: 50%;
+  margin-top: -1000px;
+  /* padding-top: 30px; */
   font-family: 'Meddon', cursive;
   font-size: 60px;
   text-align: center;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1270px){
+  #sculptures_title{
+    margin-top: -900px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 960px){
+  #sculptures_title{
+    margin-top: -820px;
+    font-size: 50px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #sculptures_title{
+    margin-top: -430px;
+    margin-right: 0%;
+    transition: 0.6s;
+  }
+}
+
+#sculptures_text{
+  width: 50%;
+  padding: 0px 40px;
+  margin-left: 50%;
+  margin-top: -100px;
+  color: white;
+  text-align: justify;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 800px){
+  #sculptures_text{
+    width: 100%;
+    margin-top: 70px;
+    margin-left: -1%;
+    transition: 0.6s;
+  }
 }
 
 .sec1_row{
-  padding: 30px 200px;
+  padding: 30px 200px 0px 200px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1100px){
+  .sec1_row{
+    padding: 30px 100px 0px 100px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .sec1_row{
+    padding: 30px;
+    transition: 0.6s;
+  }
 }
 
 .sec1_column{
   float: left;
   width: 25%;
   padding: 0px 10px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 800px){
+  .sec1_column{
+    width: 50%;
+    transition: 0.6s;
+  }
 }
 
 .sec1_row:after{
   content: "";
   display: table;
   clear: both;
-}
-
-#sculptures_text{
-  padding:0px 170px;
-  margin: 0px;
-  text-align: justify;
-  transition: 0.6s;
-}
-
-@media screen and (max-width: 1100px){
-  #sculptures_text{
-    padding:0px 100px;
-    transition: 0.6s;
-  }
-}
-
-@media screen and (max-width: 800px){
-  #sculptures_text{
-    padding:0px 50px;
-    transition: 0.6s;
-  }
-}
-
-@media screen and (max-width: 600px){
-  #sculptures_text{
-    padding:0px 25px;
-    transition: 0.6s;
-  }
 }
 
 .sculptures_images{
