@@ -1,2 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+.sec1_column{
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+.sec1_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
