@@ -1,660 +1,660 @@
 @charset "UTF-8";
 /* CSS Document */
 
-    body, html{
-      height: 100%;
-      margin: 0;
-    }
-
-  	*{
-    	box-sizing: border-box;
-  	}
-
-  	hr{
-  		border: 1px solid #f1f1f1;
-  		margin-bottom: 25px;
-  	}
-
-    .salvador_dali_image{
-      background-image: url("../images/salvador_dali_image.jpg");
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    @media screen and (max-width: 600px){
-      .salvador_dali_image{
-        background-image: url("../images/salvador_dali_image1.jpg");
-      }
-    }
-
-    .salvador_dali_name{
-      position: absolute;
-      top: 50%;
-      left: 65%;
-      transform: translate(-50%, -65%);
-      font-family: 'Sonsie One';
-      font-size: 100px;
-      text-align: center;
-      color: #282828;
-    }
-
-    @media screen and (max-width: 1155px){
-      .salvador_dali_name{
-        font-size: 80px;
-      }
-    }
-
-    @media screen and (max-width: 940px){
-      .salvador_dali_name{
-        font-size: 65px;
-      }
-    }
-
-    @media screen and (max-width: 800px){
-      .salvador_dali_name{
-        left: 50%;
-        font-size: 55px;
-      }
-    }
-
-    @media screen and (max-width: 600px){
-      .salvador_dali_name{
-        top: 78%;
-        left: 73.5%;
-        font-size: 37px;
-      }
-    }
-
-    #most_famous_painting_title{
-      position: absolute;
-      color: white;
-      font-size: 100px;
-      font-family: 'Oswald', sans-serif;
-      margin-top: 130px;
-      margin-left: -20px;
-      width: 30%;
-      text-align: left;
-      line-height: 100%;
-      -ms-transform: rotate(-90deg); /* IE 9 */
-      transform: rotate(-90deg);
-      transition: 0.6s;
-    }
-
-    @media screen and (max-width: 1270px){
-      #most_famous_painting_title{
-        margin-left: 20px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 1200px){
-      #most_famous_painting_title{
-        font-size: 80px;
-        margin-top: 115px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 990px){
-      #most_famous_painting_title{
-        font-size: 60px;
-        margin-top: 85px;
-        margin-left: 10px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 767px){
-      #most_famous_painting_title{
-        font-size: 43px;
-        margin-top: 67px;
-        margin-left: -5px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 600px){
-      #most_famous_painting_title{
-        margin-left: 20px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 500px){
-      #most_famous_painting_title{
-        margin-top: 90px;
-        transition: 0.6s;
-      }
-    }
-
-    #other_famous_paintings_title{
-      position: relative;
-      color: black;
-      font-size: 100px;
-      font-family: 'Oswald', sans-serif;
-      margin-top: 120px;
-      margin-bottom: -70px;
-      text-align: center;
-      line-height: 100%;
-      transition: 0.6s;
-    }
-
-    .text-block{
-      position: absolute;
-      top: 30px;
-      left: 40px;
-      background-color: #ddebdf;
-      color: #59785d;
-      padding: 20px 45px;
-      height: 100px;
-      font-size: 30px;
-      font-family: 'Oswald', sans-serif;
-      transition: 0.6s;
-    }
-
-    .text-block:hover{
-        left: 1px;
-        color: #282828;
-        cursor: default;
-        transition: 0.6s;
-    }
-
-    #the_persistence_of_memory_image:hover{
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        transition: 0.6s;
-    }
-
-    @media screen and (max-width: 1200px){
-        .text-block{
-            font-size: 26px;
-            padding: 25px 55px 20px 30px;
-        }
-    }
-
-    @media screen and (max-width: 1010px){
-        .text-block{
-            font-size: 23px;
-            padding: 30px 60px 30px 65px;
-        }
-    }
-
-    @media screen and (max-width: 990px){
-        .text-block{
-            font-size: 20px;
-            padding: 30px 40px 30px 27px;
-            height: 90px;
-        }
-    }
-
-    @media screen and (max-width: 767px){
-        .text-block{
-            font-size: 16px;
-            padding: 25px 20px 20px 27px;
-            height: 75px;
-        }
-    }
-
-    @media screen and (max-width: 578px){
-        .text-block{
-            font-size: 16px;
-            padding: 20px 30px;
-            height: 65px;
-        }
-    }
-
-    @media screen and (max-width: 565px){
-        .text-block{
-            padding: 20px 25px;
-        }
-    }
-
-    @media screen and (max-width: 545px){
-        .text-block{
-            padding: 20px 20px;
-        }
-    }
-
-    @media screen and (max-width: 520px){
-        .text-block{
-            padding: 20px 15px;
-        }
-    }
-
-    #quote_text{
-        padding: 105px 60px 0px;
-    }
-
-    @media screen and (max-width: 1310px){
-        #quote_text{
-            padding: 92px 60px 0px;
-        }
-    }
-
-    @media screen and (max-width: 775px){
-        #quote_text{
-            padding: 88px 60px 0px;
-        }
-    }
-
-    @media screen and (max-width: 617px){
-        #quote_text{
-            padding: 73px 60px 0px;
-        }
-    }
-
-    @media screen and (max-width: 538px){
-        #quote_text{
-            padding: 70px 60px 0px;
-        }
-    }
-
-    #overview_text{
-        color: #282828;
-        padding: 15px 150px;
-        text-align: justify;
-    }
-
-    @media screen and (max-width: 1200px){
-        #overview_text{
-            padding: 15px 100px;
-        }
-    }
-
-    @media screen and (max-width: 1000px){
-        #overview_text{
-            padding: 15px 65px;
-        }
-    }
-
-    @media screen and (max-width: 700px){
-        #overview_text{
-            padding: 15px 45px;
-        }
-    }
-
-    @media screen and (max-width: 570px){
-        #overview_text{
-            padding: 15px 25px;
-        }
-    }
-
-    @media screen and (max-width: 510px){
-        #overview_text{
-            padding: 15px 10px;
-        }
-    }
-
-  	/* Clear floats */
-  	.clearfix::after{
-    		content: "";
-    		clear: both;
-    		display: table;
-  	}
-
-    .card_image{
-        position: relative;
-    }
-
-    .card_image:hover{
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        transition: 0.6s;
-        cursor: pointer;
-    }
-
-    .card{
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      transition: 0.3s;
-      width: 100%;
-      height: 600px;
-    }
-
-    /*.card:hover{
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        cursor: pointer;
-    }*/
-
-    @media screen and (max-width: 1185px){
-      .card{
-        height: 550px;
-      }
-    }
-
-    @media screen and (max-width: 890px){
-      .card{
-        height: 500px;
-      }
-    }
-
-    @media screen and (max-width: 800px){
-      .card{
-        height: 640px;
-      }
-
-      #soft-construction-with-beans_card{
-        height: 820px;
-      }
-    }
-
-    @media screen and (max-width: 700px){
-      .card{
-        height: 575px;
-      }
-
-      #soft-construction-with-beans_card{
-        height: 770px;
-      }
-    }
-
-    @media screen and (max-width: 630px){
-      .card{
-        height: 530px;
-      }
-
-      #soft-construction-with-beans_card{
-        height: 700px;
-      }
-    }
-
-    @media screen and (max-width: 570px){
-      .card{
-        height: 500px;
-      }
-
-      #soft-construction-with-beans_card{
-        height: 650px;
-      }
-    }
-
-    @media screen and (max-width: 500px){
-      .card{
-        height: 475px;
-      }
-
-      #soft-construction-with-beans_card{
-        height: 585px;
-      }
-    }
-
-    .container{
-      padding: 2px 20px;
-    }
-
-    #sec1{
-      padding: 20px 60px 10px;
-    }
-
-    @media screen and (max-width: 800px){
-      #sec1{
-        padding: 0px 60px;
-        transition: 0.5s;
-      }
-    }
-
-    #paintings_block_design{
-      position: relative;
-      background-color: #ddebdf;
-      top: 85px;
-      margin-right: 15px;
-      left: 40px;
-      height: 140px;
-    }
-
-    @media screen and (max-width: 800px){
-      #paintings_block_design{
-        visibility: hidden;
-      }
-    }
-
-    .paintings_column{
-      float: left;
-      width: 33.33%;
-      padding: 0px 10px;
-    }
-
-    .paintings_row:after{
-      content: "";
-      display: table;
-      clear: both;
-
-    }
-
-    @media screen and (max-width: 800px){
-      .paintings_column{
-        width: 100%;
-        padding: 7px 0px;
-      }
-    }
-
-    #sec2{
-      padding: 100px 200px;
-    }
-
-    @media screen and (max-width: 1200px){
-      #sec2{
-        padding: 80px 100px;
-        transition: 0.5s;
-      }
-    }
-
-    @media screen and (max-width: 800px){
-      #sec2{
-        padding: 60px 10px;
-        transition: 0.5s;
-      }
-    }
-
-    .sec2_column{
-      float: left;
-      padding: 10px;
-
-    }
-
-    @media screen and (max-width: 800px){
-      .sec2_column{
-        padding: 10px 0px;
-      }
-    }
-
-    .sec2_left{
-      width: 60%;
-    }
-
-    .sec2_right{
-      width: 40%;
-    }
-
-    @media screen and (max-width: 567px){
-        .sec2_right{
-            margin-top: 20px;
-            transition: 0.6s;
-        }
-    }
-
-    @media screen and (max-width: 545px){
-        .sec2_right{
-            margin-top: 25px;
-            transition: 0.6s;
-        }
-    }
-
-    @media screen and (max-width: 520px){
-        .sec2_right{
-            margin-top: 37px;
-            transition: 0.6s;
-        }
-    }
-
-    #symbols_title{
-      position: relative;
-      color: black;
-      font-size: 100px;
-      font-family: 'Oswald', sans-serif;
-      margin-top: -20px;
-      margin-bottom: 30px;
-      line-height: 100%;
-      transition: 0.6s;
-    }
-
-    #dali_melting_clock_symbol_image:hover{
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        transition: 0.6s;
-    }
-
-    #sec2_block_design{
-        position: relative;
-        background-color: #EBCFC4;
-        top: 200px;
-        left: 0%;
-        margin-right: 15px;
-        padding: 10px;
-        height: 180px;
-        transition: 0.6s;
-    }
-
-    #sec2_block_design:hover{
-        left: 2%;
-        transition: 0.6s;
-    }
-
-    @media screen and (max-width: 1358px){
-        #sec2_block_design{
-            top: 160px;
-            height: 200px;
-            transition: 0.6s;
-        }
-    }
-
-    @media screen and (max-width: 1052px){
-        #sec2_block_design{
-            top: 140px;
-            transition: 0.6s;
-        }
-    }
-
-    @media screen and (max-width: 977px){
-        #sec2_block_design{
-            top: 110px;
-            height: 220px;
-            transition: 0.6s;
-        }
-    }
-
-    @media screen and (max-width: 943px){
-        #sec2_block_design{
-            top: 90px;
-            transition: 0.6s;
-        }
-    }
-
-    @media screen and (max-width: 887px){
-        #sec2_block_design{
-            top: 70px;
-            height: 240px;
-            transition: 0.6s;
-        }
-    }
-
-    @media screen and (max-width: 845px){
-        #sec2_block_design{
-            top:50px;
-            transition: 0.6s;
-        }
-    }
-
-    @media screen and (max-width: 830px){
-      #sec2_block_design{
-        top: 40px;
-        height: 260px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 800px){
-      #sec2_block_design{
-        top: 85px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 738px){
-      #sec2_block_design{
-        top: 70px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 648px){
-      #sec2_block_design{
-        top: 55px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 615px){
-      #sec2_block_design{
-        top: 25px;
-        height: 300px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 588px){
-      #sec2_block_design{
-        top: 17px;
-        transition: 0.6s;
-      }
-    }
-
-    @media screen and (max-width: 567px){
-      #sec2_block_design{
-        height: 330px;
-        transition: 0.6s;
-      }
-    }
-
-    .sec2_row:after{
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    #sec3{
-      padding: 80px 140px;
-      height: 600px;
-    }
-
-    @media screen and (max-width: 1200px){
-      #sec3{
-        padding: 50px 100px;
-        transition: 0.5s;
-      }
-    }
-
-    @media screen and (max-width: 800px){
-      #sec3{
-        padding: 30px 0px;
-      }
-    }
-
-    .sec3_column{
-      float: left;
-      padding: 10px;
-
-    }
-
-    .sec3_left{
-      width: 55%;
-    }
-
-    .sec3_right{
-      width: 45%;
-    }
-
-    .sec3_row:after{
-      content: "";
-      display: table;
-      clear: both;
-    }
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+hr{
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.salvador_dali_image{
+  background-image: url("../images/salvador_dali_image.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px){
+  .salvador_dali_image{
+    background-image: url("../images/salvador_dali_image1.jpg");
+  }
+}
+
+.salvador_dali_name{
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -65%);
+  font-family: 'Sonsie One';
+  font-size: 100px;
+  text-align: center;
+  color: #282828;
+}
+
+@media screen and (max-width: 1155px){
+  .salvador_dali_name{
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 940px){
+  .salvador_dali_name{
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .salvador_dali_name{
+    left: 50%;
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .salvador_dali_name{
+    top: 78%;
+    left: 73.5%;
+    font-size: 37px;
+  }
+}
+
+#most_famous_painting_title{
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 130px;
+  margin-left: -20px;
+  width: 30%;
+  text-align: left;
+  line-height: 100%;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  transform: rotate(-90deg);
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1270px){
+  #most_famous_painting_title{
+    margin-left: 20px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  #most_famous_painting_title{
+    font-size: 80px;
+    margin-top: 115px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 990px){
+  #most_famous_painting_title{
+    font-size: 60px;
+    margin-top: 85px;
+    margin-left: 10px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #most_famous_painting_title{
+    font-size: 43px;
+    margin-top: 67px;
+    margin-left: -5px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #most_famous_painting_title{
+    margin-left: 20px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #most_famous_painting_title{
+    margin-top: 90px;
+    transition: 0.6s;
+  }
+}
+
+#other_famous_paintings_title{
+  position: relative;
+  color: black;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 120px;
+  margin-bottom: -70px;
+  text-align: center;
+  line-height: 100%;
+  transition: 0.6s;
+}
+
+.text-block{
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  background-color: #ddebdf;
+  color: #59785d;
+  padding: 20px 45px;
+  height: 100px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  transition: 0.6s;
+}
+
+.text-block:hover{
+  left: 1px;
+  color: #282828;
+  cursor: default;
+  transition: 0.6s;
+}
+
+#the_persistence_of_memory_image:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1200px){
+  .text-block{
+    font-size: 26px;
+    padding: 25px 55px 20px 30px;
+  }
+}
+
+@media screen and (max-width: 1010px){
+  .text-block{
+    font-size: 23px;
+    padding: 30px 60px 30px 65px;
+  }
+}
+
+@media screen and (max-width: 990px){
+  .text-block{
+    font-size: 20px;
+    padding: 30px 40px 30px 27px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .text-block{
+    font-size: 16px;
+    padding: 25px 20px 20px 27px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 578px){
+  .text-block{
+    font-size: 16px;
+    padding: 20px 30px;
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 565px){
+  .text-block{
+    padding: 20px 25px;
+  }
+}
+
+@media screen and (max-width: 545px){
+  .text-block{
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .text-block{
+    padding: 20px 15px;
+  }
+}
+
+#quote_text{
+  padding: 105px 60px 0px;
+}
+
+@media screen and (max-width: 1310px){
+  #quote_text{
+    padding: 92px 60px 0px;
+  }
+}
+
+@media screen and (max-width: 775px){
+  #quote_text{
+    padding: 88px 60px 0px;
+  }
+}
+
+@media screen and (max-width: 617px){
+  #quote_text{
+    padding: 73px 60px 0px;
+  }
+}
+
+@media screen and (max-width: 538px){
+  #quote_text{
+    padding: 70px 60px 0px;
+  }
+}
+
+#overview_text{
+  color: #282828;
+  padding: 15px 150px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1200px){
+  #overview_text{
+    padding: 15px 100px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  #overview_text{
+    padding: 15px 65px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  #overview_text{
+    padding: 15px 45px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  #overview_text{
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 510px){
+  #overview_text{
+    padding: 15px 10px;
+  }
+}
+
+/* Clear floats */
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card_image{
+  position: relative;
+}
+
+.card_image:hover{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 600px;
+}
+
+/*.card:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+}*/
+
+@media screen and (max-width: 1185px){
+  .card{
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 890px){
+  .card{
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .card{
+    height: 640px;
+  }
+
+  #soft-construction-with-beans_card{
+    height: 820px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .card{
+    height: 575px;
+  }
+
+  #soft-construction-with-beans_card{
+    height: 770px;
+  }
+}
+
+@media screen and (max-width: 630px){
+  .card{
+    height: 530px;
+  }
+
+  #soft-construction-with-beans_card{
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  .card{
+    height: 500px;
+  }
+
+  #soft-construction-with-beans_card{
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .card{
+    height: 475px;
+  }
+
+  #soft-construction-with-beans_card{
+    height: 585px;
+  }
+}
+
+.container{
+  padding: 2px 20px;
+}
+
+#sec1{
+  padding: 20px 60px 10px;
+}
+
+@media screen and (max-width: 800px){
+  #sec1{
+    padding: 0px 60px;
+    transition: 0.5s;
+  }
+}
+
+#paintings_block_design{
+  position: relative;
+  background-color: #ddebdf;
+  top: 85px;
+  margin-right: 15px;
+  left: 40px;
+  height: 140px;
+}
+
+@media screen and (max-width: 800px){
+  #paintings_block_design{
+    visibility: hidden;
+  }
+}
+
+.paintings_column{
+  float: left;
+  width: 33.33%;
+  padding: 0px 10px;
+}
+
+.paintings_row:after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+@media screen and (max-width: 800px){
+  .paintings_column{
+    width: 100%;
+    padding: 7px 0px;
+  }
+}
+
+#sec2{
+  padding: 100px 200px;
+}
+
+@media screen and (max-width: 1200px){
+  #sec2{
+    padding: 80px 100px;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #sec2{
+    padding: 60px 10px;
+    transition: 0.5s;
+  }
+}
+
+.sec2_column{
+  float: left;
+  padding: 10px;
+
+}
+
+@media screen and (max-width: 800px){
+  .sec2_column{
+    padding: 10px 0px;
+  }
+}
+
+.sec2_left{
+  width: 60%;
+}
+
+.sec2_right{
+  width: 40%;
+}
+
+@media screen and (max-width: 567px){
+  .sec2_right{
+    margin-top: 20px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 545px){
+  .sec2_right{
+    margin-top: 25px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .sec2_right{
+    margin-top: 37px;
+    transition: 0.6s;
+  }
+}
+
+#symbols_title{
+  position: relative;
+  color: black;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  line-height: 100%;
+  transition: 0.6s;
+}
+
+#dali_melting_clock_symbol_image:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.6s;
+}
+
+#sec2_block_design{
+  position: relative;
+  background-color: #EBCFC4;
+  top: 200px;
+  left: 0%;
+  margin-right: 15px;
+  padding: 10px;
+  height: 180px;
+  transition: 0.6s;
+}
+
+#sec2_block_design:hover{
+  left: 2%;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1358px){
+  #sec2_block_design{
+    top: 160px;
+    height: 200px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1052px){
+  #sec2_block_design{
+    top: 140px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 977px){
+  #sec2_block_design{
+    top: 110px;
+    height: 220px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 943px){
+  #sec2_block_design{
+    top: 90px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 887px){
+  #sec2_block_design{
+    top: 70px;
+    height: 240px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 845px){
+  #sec2_block_design{
+    top:50px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 830px){
+  #sec2_block_design{
+    top: 40px;
+    height: 260px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #sec2_block_design{
+    top: 85px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 738px){
+  #sec2_block_design{
+    top: 70px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 648px){
+  #sec2_block_design{
+    top: 55px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 615px){
+  #sec2_block_design{
+    top: 25px;
+    height: 300px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 588px){
+  #sec2_block_design{
+    top: 17px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 567px){
+  #sec2_block_design{
+    height: 330px;
+    transition: 0.6s;
+  }
+}
+
+.sec2_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#sec3{
+  padding: 80px 140px;
+  height: 600px;
+}
+
+@media screen and (max-width: 1200px){
+  #sec3{
+    padding: 50px 100px;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #sec3{
+    padding: 30px 0px;
+  }
+}
+
+.sec3_column{
+  float: left;
+  padding: 10px;
+
+}
+
+.sec3_left{
+  width: 55%;
+}
+
+.sec3_right{
+  width: 45%;
+}
+
+.sec3_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}

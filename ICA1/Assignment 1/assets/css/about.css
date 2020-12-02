@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#about_salvador_dali_title{
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -30%;
+  left: -13%;
+  transition: 0.6s;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  transform: rotate(-90deg);
+}
+
+#sec1{
+  background-color: white;
+  padding: 40px 60px 10px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 800px){
+  #sec1{
+    padding: 40px 30px 10px;
+    height: 1400px;
+    transition: 0.4s;
+  }
+}
+
+.coloured-title{
+  color: black;
+  font-weight: bolder;
+  padding: 0px;
+  margin: 0px;
+}
+
+a:hover{
+  color: #c73aaf;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+@media screen and (max-width: 590px){
+  .centered{
+    font-size: 48px;
+    transition: 0.4s;
+  }
+}
+
+.accordion {
+  background-color: #bdbdbd;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 2px 0px;
+}
+
+.accordion:hover{
+  color: white;
+  background-color: #999999;
+}
+
+.panel{
+  padding: 0 18px;
+  background-color: #EFEEEE;
+  display: none;
+  overflow: hidden;
+}
