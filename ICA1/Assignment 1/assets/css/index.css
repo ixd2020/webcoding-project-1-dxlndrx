@@ -652,7 +652,7 @@
     .sec3_right{
       width: 45%;
     }
-    
+
     .sec3_row:after{
       content: "";
       display: table;

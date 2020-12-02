@@ -6100,7 +6100,12 @@ hr{
   }
 }
 
-
+@media screen and (max-width: 592px){
+  #the_burning_giraffe_block_design{
+    height: 532px;
+    transition: 0.6s;
+  }
+}
 
 @media screen and (max-width: 585px){
   #the_burning_giraffe_block_design{

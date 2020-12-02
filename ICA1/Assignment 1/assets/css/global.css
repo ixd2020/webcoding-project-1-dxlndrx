@@ -36,56 +36,51 @@
 	}
 
 	#topBtn:hover{
-  		background-color: #2D2D2D;
+		background-color: #2D2D2D;
 		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	}
 
 	.button{
-	  	background-color: #999999;; /* Green */
-	  	border: none;
-	  	color: white;
-	  	padding: 6px 15px;
-	  	margin-bottom: 10px;
-	  	text-align: center;
-	  	text-decoration: none;
-	  	display: inline-block;
-	  	font-size: 10px;
-	  	transition-duration: 0.4s;
-	  	cursor: pointer;
-
+  	background-color: #555555;;
+  	border: none;
+  	color: white;
+  	margin-bottom: 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 10px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
 	}
 
 	.readmore{
-  		background-color: white;
-  		color: black;
-  		border: 2px solid #555555;
+		background-color: white;
+		color: black;
+		border: 2px solid #555555;
 	}
 
 	.readmore:hover{
-	  	background-color: #555555;
-	  	color: white;
+  	background-color: #555555;
+  	color: white;
 	}
 
 	.clicktoreadmore{
-  		background-color: white;
-  		color: black;
-  		border: 2px solid #a39e90;
+		background-color: white;
+		color: black;
+		border: 2px solid #555555;
 	}
 
 	.clicktoreadmore:hover{
-	  	background-color: #555555;
-	  	border-color: #555555;
-	  	color: white;
+		background-color: #555555;
+		border-color: #555555;
+		color: white;
 	}
 
-    .footer{
+  .footer{
 		height: 58px;
 		bottom: auto;
-   		width: 100%;
-   		background-color: #282828;
-   		color: white;
-   		text-align: center;
+   	width: 100%;
+   	background-color: #282828;
+   	color: white;
+   	text-align: center;
 	}
-
-
-	
