@@ -5778,24 +5778,324 @@ hr{
   }
 }
 
+@media screen and (max-width: 1320px){
+  #the_burning_giraffe_block_design{
+    height: 545px;
+    transition: 0.6s;
+  }
+}
+
 @media screen and (max-width: 1310px){
   #the_burning_giraffe_block_design{
-    height: 900px;
+    height: 530px;
     transition: 0.6s;
   }
 }
 
 @media screen and (max-width: 1285px){
   #the_burning_giraffe_block_design{
-    height: 600px;
+    height: 518px;
     transition: 0.6s;
-
   }
 }
 
 @media screen and (max-width: 1266px){
   #the_burning_giraffe_block_design{
-    height: 200px;
+    height: 505px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  #the_burning_giraffe_block_design{
+    height: 495px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1235px){
+  #the_burning_giraffe_block_design{
+    height: 550px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  #the_burning_giraffe_block_design{
+    height: 525px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1180px){
+  #the_burning_giraffe_block_design{
+    height: 515px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1160px){
+  #the_burning_giraffe_block_design{
+    height: 630px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1135px){
+  #the_burning_giraffe_block_design{
+    height: 615px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1110px){
+  #the_burning_giraffe_block_design{
+    height: 598px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1087px){
+  #the_burning_giraffe_block_design{
+    height: 583px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  #the_burning_giraffe_block_design{
+    height: 565px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1046px){
+  #the_burning_giraffe_block_design{
+    height: 555px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1025px){
+  #the_burning_giraffe_block_design{
+    height: 545px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  #the_burning_giraffe_block_design{
+    height: 527px;
+    transition: 0.6s;
+  }
+}
+/* START HERE*/
+@media screen and (max-width: 985px){
+  #the_burning_giraffe_block_design{
+    height: 512px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 965px){
+  #the_burning_giraffe_block_design{
+    height: 500px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 943px){
+  #the_burning_giraffe_block_design{
+    height: 495px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 920px){
+  #the_burning_giraffe_block_design{
+    height: 478px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 900px){
+  #the_burning_giraffe_block_design{
+    height: 595px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 888px){
+  #the_burning_giraffe_block_design{
+    height: 573px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 865px){
+  #the_burning_giraffe_block_design{
+    height: 542px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 845px){
+  #the_burning_giraffe_block_design{
+    height: 625px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 837px){
+  #the_burning_giraffe_block_design{
+    height: 610px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 825px){
+  #the_burning_giraffe_block_design{
+    height: 595px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 810px){
+  #the_burning_giraffe_block_design{
+    height: 580px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #the_burning_giraffe_block_design{
+    height: 570px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 792px){
+  #the_burning_giraffe_block_design{
+    height: 555px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 780px){
+  #the_burning_giraffe_block_design{
+    height: 543px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #the_burning_giraffe_block_design{
+    height: 625px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 758px){
+  #the_burning_giraffe_block_design{
+    height: 607px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 740px){
+  #the_burning_giraffe_block_design{
+    height: 588px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 728px){
+  #the_burning_giraffe_block_design{
+    height: 578px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 722px){
+  #the_burning_giraffe_block_design{
+    height: 570px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 714px){
+  #the_burning_giraffe_block_design{
+    height: 562px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 705px){
+  #the_burning_giraffe_block_design{
+    height: 548px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 695px){
+  #the_burning_giraffe_block_design{
+    height: 530px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 687px){
+  #the_burning_giraffe_block_design{
+    height: 648px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 678px){
+  #the_burning_giraffe_block_design{
+    height: 635px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 668px){
+  #the_burning_giraffe_block_design{
+    height: 625px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 655px){
+  #the_burning_giraffe_block_design{
+    height: 610px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 640px){
+  #the_burning_giraffe_block_design{
+    height: 590px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 630px){
+  #the_burning_giraffe_block_design{
+    height: 578px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 618px){
+  #the_burning_giraffe_block_design{
+    height: 565px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 607px){
+  #the_burning_giraffe_block_design{
+    height: 550px;
     transition: 0.6s;
   }
 }
