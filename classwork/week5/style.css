@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url("img2.jpg");
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  padding: 30px;
+  color: white;
+  height: 200px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.redbox{
+  background-color: red;
+}
+
+.bluebox{
+  background-color: blue;
+}
+
+.pinkbox{
+  background-color: pink;
+  padding: 50px;
+}
+
+.greenbox{
+  background-color: green;
+}
+
+.orangebox{
+  background-color: orange;
+}
+
+.onecol{
+  width: 100%;
+}
+
+.twocol{
+  width: 50%;
+  border: 2px solid white;
+}
+
+.threecol{
+  width: 33.33%;
+}
+
+@media screen and (max-width: 1000px){
+  .onecol, .twocol, .threecol{
+      width: 100%;
+      transition: 0.6s;
+  }
+}

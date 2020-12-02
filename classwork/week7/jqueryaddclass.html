@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JQuery Test File</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("h1, h2").addClass("blue");
+        $("div").addClass("important");
+      });
+    });
+    </script>
+    <style>
+      .important {
+        font-weight: bold;
+        font-size: xx-large;
+      }
+
+      .blue {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <div>This is some important text!</div><br>
+
+    <button>Add classes to elements</button>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JQuery Test File</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").css("background-color", "pink");
+      });
+    });
+    </script>
+  </head>
+  <body>
+
+    <p style="background-color:grey">Sentence 1</p>
+    <p style="background-color:skyblue">Sentence 2</p>
+    <p style="background-color:lightgreen">Sentence 3</p>
+
+    <p>Sentence 4</p>
+
+    <button id="buttontest" style="background-color: white; border: 1px solid #de3ec9; color: #de3ec9;">Click to change background color</button>
+
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* unvisited link */ /* visited link */
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: green;
+      }
+
+      /* mouse over link */
+      a:hover {
+        transition: 0.4s;
+        color: hotpink;
+      }
+
+      /* selected link */
+      a:active {
+        color: blue;
+      }
+
+      #image_test{
+        Width: 50%;
+        transition: 0.6s;
+      }
+
+      @media screen and (max-width: 1000px){
+        #image_test{
+            width: 100%;
+            transition: 0.6s;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <a href="#">
+      <h2 style="font-family: 'Sonsie One', cursive;">Grid of Boxes</h2>
+    </a>
+    <p style="color: white;">Float boxes side by side:</p>
+
+    <img id="image_test" src="https://cdn.glitch.com/0516dcb8-4f5f-4fb1-bb2f-b7e87e1c643b%2Fimg3.jpg?v=1605452270317">
+    <br><br>
+
+    <div class="clearfix">
+      <div class="box redbox threecol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box orangebox threecol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box redbox threecol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box pinkbox twocol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box greenbox twocol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box bluebox onecol">
+        <p>Some text inside the box.</p>
+      </div>
+    </div>
+
+    <p>
+      Note that we also use the clearfix hack to take care of the layout flow,
+      and that add the box-sizing property to make sure that the box doesn't
+      break due to extra padding. Try to remove this code to see the effect.
+    </p>
+  </body>
+</html>
