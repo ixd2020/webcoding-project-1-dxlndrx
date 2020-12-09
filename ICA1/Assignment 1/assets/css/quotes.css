@@ -7,8 +7,30 @@ body, html{
   margin: 0;
 }
 
-* {
+*{
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 990px){
+  #sec1{
+    height:100%;
+    padding-top:100px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 765px){
+  #sec1{
+    padding-top:130px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 550px){
+  #sec1{
+    padding-top:150px;
+    transition: 0.6s;
+  }
 }
 
 .container{
@@ -18,15 +40,10 @@ body, html{
   transition: 0.6s;
 }
 
-.sec1_column{
-  float: left;
-  width: 25%;
-  padding: 0px 15px;
-  transition: 0.6s;
-}
-
 .sec1_row{
-  margin-top: -10px;
+  margin: -10px;
+  padding-top: 80px;
+  padding-bottom:30px;
 }
 
 .sec1_row:after{
@@ -35,20 +52,10 @@ body, html{
   clear: both;
 }
 
-.sec2_column{
+.sec1_column{
   float: left;
-  width: 100%;
   padding: 5px 15px;
-}
-
-.sec2_row{
-  margin: -10px;
-}
-
-.sec2_row:after{
-  content: "";
-  display: table;
-  clear: both;
+  width: 100%;
 }
 
 .quotes_text{
@@ -62,6 +69,36 @@ body, html{
   transition: 0.6s;
 }
 
+@media screen and (max-width: 990px){
+  .quotes_text{
+    width: 90%;
+    font-size: 20px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 765px){
+  .quotes_text{
+    font-size: 15px;
+    transition: 0.6s;
+  }
+}
+
 .increase_font_size{
   font-size: 40px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 990px){
+  .increase_font_size{
+    font-size: 30px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 765px){
+  .increase_font_size{
+    font-size: 20px;
+    transition: 0.6s;
+  }
 }

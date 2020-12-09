@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Page Title -->
-  <title>Sculptures</title>
+  <title>Furniture</title>
 
   <!-- Style CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/global.css">
@@ -21,33 +21,16 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
-  <link rel="stylesheet" href="assets/css/sculptures.css">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <!-- w3schools -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-  <style>
-    .change_title_color{
-      color: white;
-    }
-
-    @media screen and (max-width: 800px){
-      .change_title_color{
-        color: black;
-      }
-    }
-  </style>
-
 </head>
 
 <body style="font-family:'Roboto Condensed', sans-serif; background-color: #282828;">
@@ -74,11 +57,11 @@
             <a class="nav-link" href="paintings.html">Paintings</a>
           </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item active">
-            <a class="nav-link" href="sculptures.html">Sculptures<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="sculptures.html">Sculptures</a>
           </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Portfolio
             </a>
@@ -86,7 +69,7 @@
 
               <a class="dropdown-item" href="collaborations.html">Collaborations</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="books.html">Books</a>
+              <a class="dropdown-item" href="books.html">Books<span class="sr-only">(current)</span></a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="photography.html">Photography</a>
               <div class="dropdown-divider"></div>
@@ -107,54 +90,14 @@
     </nav>
   </header>
 
-  <!-- Go to the top Button -->
-  <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-sort-up"></i><br>Top</button>
-
-  <!-- Salvador Dali's Works -->
   <!-- Section 1 -->
-  <section id="sec1" style="background-color: white;padding-top: 40px;">
-    <div id="sec1_block_design_bkg"></div>
-    <p id="sculptures_title">Sculptures</p>
-    <p id="sculptures_text">
-      Salvador Dalí felt constrained by the limitations of a flat canvas and turned to sculptures. He felt he could express himself better through three-dimensional forms. They depict his character, his obsessions, his fears and passions. These creations create an awe inspiring exhibit, captivating the viewers into the enchanted and Surrealist world of Salvador Dalí.  Till today, they continue to inspire and captivate the public all over the world. Many of these prominent sculptures today are displayed in the most important cities of the world; Rome, London, Beijing, Singapore, Sydney, Hong Kong and virtually every major city in Europe.
-    </p>
+  <section id="sec1" style="background-color: white;height:1000px;">
+    <!-- Go to the top Button -->
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-sort-up"></i><br>Top</button>
 
-    <div class="sec1_row">
-      <div class="sec1_column">
-        <img class="sculptures_images" src="assets/images/sculptures/dali_bronze_sculpture_alice_in_wonderland_.jpg" alt="">
-        <p style="text-align: center;font-weight: bold;">Alice in Wonderland</p>
-      </div>
-      <div class="sec1_column">
-        <img class="sculptures_images" src="assets/images/sculptures/dance-of-time-i.jpg" alt="">
-        <p style="text-align: center;font-weight: bold;">Dance of Time I</p>
-      </div>
-      <div class="sec1_column change_title_color">
-        <img class="sculptures_images" src="assets/images/sculptures/dali_bronze_sculpture_danc_e_of_time_singapore_.jpg" alt="">
-        <p style="text-align: center;font-weight: bold;">Dance of Time II</p>
-      </div>
-      <div class="sec1_column change_title_color">
-        <img class="sculptures_images" src="assets/images/sculptures/dali_bronze_monumental_sculpture_homage_to_terpsichore_sorrento.jpg" alt="">
-        <p style="text-align: center;font-weight: bold;">Hornage to Terpsichore</p>
-      </div>
-      <div class="sec1_column">
-        <img class="sculptures_images" src="assets/images/sculptures/monumental-sculpture-horse-saddled-with-time.jpg" alt="">
-        <p style="text-align: center;font-weight: bold;">Horse Saddled with Time</p>
-      </div>
-      <div class="sec1_column">
-        <img class="sculptures_images" src="assets/images/sculptures/dali_bronze_monumental_sculpture_nobility_of_time_.jpg" alt="">
-        <p style="text-align: center;font-weight: bold;">Nobility of Time</p>
-      </div>
-      <div class="sec1_column change_title_color">
-        <img class="sculptures_images" src="assets/images/sculptures/dali_bronze_monumental_sculpture_persistence_of_memory_.jpg" alt="">
-        <p style="text-align: center;font-weight: bold;">Persistence of Memory</p>
-      </div>
-      <div class="sec1_column change_title_color">
-        <img class="sculptures_images" src="assets/images/sculptures/dali_monumental_profile_time.jpg" alt="">
-        <p style="text-align: center;font-weight: bold;">Profile of Time</p>
-      </div>
-    </div>
-    <div id="sec1_block_design_bkg2"></div>
+    <h1 style="padding:70px 0px 0px 40px;">Furniture</h1>
   </section>
+
 
   <!-- Footer -->
   <footer style="background-color: #282828;">
