@@ -56,16 +56,24 @@ body, html{
 }
 
 #sec1{
-  background-color: white;
+  background-color: #f5f0ff;
   padding: 40px 60px 10px;
-  height: 1000px;
+  height: 800px;
   transition: 0.6s;
+}
+
+@media screen and (max-width: 1000px){
+  #sec1{
+    padding: 40px 30px 10px;
+    height: 1200px;
+    transition: 0.6s;
+  }
 }
 
 @media screen and (max-width: 800px){
   #sec1{
     padding: 40px 30px 10px;
-    height: 1400px;
+    height: 1350px;
     transition: 0.6s;
   }
 }
@@ -90,7 +98,7 @@ a:hover{
 }
 
 .accordion{
-  background-color: #bdbdbd;
+  background-color: #ded3f2;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -104,12 +112,12 @@ a:hover{
 
 .accordion:hover{
   color: white;
-  background-color: #999999;
+  background-color: #c6b8de;
 }
 
 .panel{
   padding: 0 18px;
-  background-color: #EFEEEE;
+  background-color: white;
   display: none;
   overflow: hidden;
 }
