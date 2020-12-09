@@ -11,12 +11,18 @@ body, html{
   box-sizing: border-box;
 }
 
+.container{
+  color: white;
+  position: relative;
+  text-align: center;
+  transition: 0.6s;
+}
+
 .sec1_column{
   float: left;
   width: 25%;
   padding: 0px 15px;
-  /* width: 350px;
-  height: 350px; */
+  transition: 0.6s;
 }
 
 .sec1_row{
@@ -27,4 +33,35 @@ body, html{
   content: "";
   display: table;
   clear: both;
+}
+
+.sec2_column{
+  float: left;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.sec2_row{
+  margin: -10px;
+}
+
+.sec2_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.quotes_text{
+  width: 100%;
+  font-size: 25px;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.6s;
+}
+
+.increase_font_size{
+  font-size: 40px;
 }
