@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+#sec1_block_design_bkg{
+	background-color: #E9CCB1;
+	top: 0px;
+	margin-right: 400px;
+	padding: 10px;
+	height: 410px;
+	transition: 0.6s;
+}
+
+@media screen and (max-width: 925px){
+  #sec1_block_design_bkg{
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+    margin-top: -190px;
+    margin-left: -10%;
+    height: 600px;
+    width: 1200px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 925px){
+  .furniture_images{
+    border: 5px solid #E9CCB1;
+  }
+}
+
+#furniture_title{
+  position: relative;
+  padding:70px 0px 0px 40px;
+  color: black;
+  margin-top: -395px;
+	margin-right: 52%;
+	font-family: 'Meddon', cursive;
+	font-size: 60px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1160px){
+  #furniture_title{
+    font-size: 50px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 925px){
+  #furniture_title{
+    text-align: center;
+    margin-right: 0%;
+    transition: 0.6s;
+  }
+}
+
+#furniture_description{
+  position: relative;
+  padding-left: 40px;
+  margin-top: 150px;
+  text-align:justify;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1360px){
+  #furniture_description{
+    margin-top: 120px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  #furniture_description{
+    margin-top: 100px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1160px){
+  #furniture_description{
+    margin-top: 60px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1085px){
+  #furniture_description{
+    margin-top: 10px;
+    margin-right: -30px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 925px){
+  #furniture_description{
+    padding: 20px 20px 0px 20px;
+    margin-right: 0px;
+    text-align: center;
+    transition: 0.6s;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sec1_column{
+  float: left;
+  padding: 10px;
+  position: relative;
+}
+
+.left{
+  width: 30%;
+}
+
+@media screen and (max-width: 925px){
+  .left{
+    width: 100%;
+    transition: 0.6s;
+  }
+}
+
+.right{
+  width: 70%;
+  padding: 0px 120px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1160px){
+  .right{
+    padding: 0px 80px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 925px){
+  .right{
+    width: 100%;
+    padding: 0px 120px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .right{
+    padding: 0px 70px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .right{
+    padding: 0px 30px;
+    transition: 0.6s;
+  }
+}
+
+.sec1_row{
+  margin-top: -100px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1160px){
+  .sec1_row{
+    margin-top: 0px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 925px){
+  .sec1_row{
+    margin-top: -55px;
+    transition: 0.6s;
+  }
+}
+
+.sec1_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sec1_2_column{
+  float: left;
+  padding: 10px;
+  width: 33.33%;
+}
+
+.sec1_2_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 925px){
+  .sec2_row{
+    padding: 0px 10px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .sec2_row{
+    padding: 0px 5px;
+    transition: 0.6s;
+  }
+}
+
+.sec2_column{
+  float: left;
+  padding: 20px;
+  width: 25%;
+}
+
+@media screen and (max-width: 925px){
+  .sec2_column{
+    padding: 10px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .sec2_column{
+    padding: 0px 5px;
+    transition: 0.6s;
+  }
+}
+
+.sec2_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.furniture_names{
+  text-align:center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 125%;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 925px){
+  .furniture_names{
+    font-size: 25px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .furniture_names{
+    font-size: 20px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .furniture_names{
+    font-size: 17px;
+    transition: 0.6s;
+  }
+}
