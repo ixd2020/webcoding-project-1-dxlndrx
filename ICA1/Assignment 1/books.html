@@ -73,9 +73,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="books.html">Books<span class="sr-only">(current)</span></a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="photography.html">Photography</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="furniture.html">Furniture</a>
+              <a class="dropdown-item" href="furniture.html">Furniture</a> 
 
             </div>
           </li>
@@ -92,15 +90,17 @@
     </nav>
   </header>
 
+  <div class="sticky_header">
+    <div class="books_title">Books</div>
+  </div>
+
   <!-- Section 1 -->
-  <section id="sec1">
+  <section id="main_section">
     <!-- Go to the top Button -->
     <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-sort-up"></i><br>Top</button>
-    <div class="sticky_header">
-      <div class="books_title">Books</div>
-    </div>
-
+    <!-- Description -->
     <p id="the_persistence_of_memory_description">Salvador Dali wrote many books in his lifetime. The most popular among them are his autobiographies, The Secret Life Of Salvadir Dali and Diary If A Genius. Besides writing books, he also illustrated several books and even published a cookbook!</p>
+    <!-- section 1: THE SECRET LIFE OF SALVADOR DALI -->
     <br>
     <div class="row">
       <div class="column">
@@ -111,28 +111,22 @@
         <p id="the_secret_life_of_salvador_dali_text">The Secret Life of Salvador Dalí describes the artist’s life from his early childhood till the outbreak of the Second World War. The book attracted a mixture of criticism and appraisal when it was first published.</p>
       </div>
     </div>
-    <!--
-    SALVADOR DALÍ PUBLISHED A COOKBOOK.
-
-    -->
-  </section>
-
-  <section id="sec2" style="background-color: #d3C4BE;">
-    <div class="row">
-      <div class="column">
+    <!-- section 2: DIARY OF A GENIUS -->
+    <div id="sec2_block_design_bkg"></div>
+    <div class="sec2_row">
+      <div class="sec2_column">
         <div id="diary_of_a_genuius_title">DIARY OF A GENIUS</div>
         <p id="diary_of_a_genuius_text">The Diary of a Genius shows how Dali draws inspiration from everything from excrement to rotten fish to compose his work, as well as talking about his love for his partner.</p>
       </div>
-      <div class="column">
+      <div class="sec2_column">
         <img id="diary_of_a_genuius_img" src="assets/images/books/diary_of_a_genuius.jpeg" alt="Diary of A Genuis">
       </div>
     </div>
-  </section>
-
-  <section id="sec3" style="background-color: white;">
+    <!-- section 3: LES DINERS DE GALA -->
     <div class="sec3_row">
       <div class="sec3_column">
-        <div id="les_diners_de_gala_title">LES DINERS DE GALA</div>
+        <div id="les_diners_de_gala_title1">LES DINERS DE GALA</div>
+        <div id="les_diners_de_gala_title2">LES DINERS DE GALA</div>
       </div>
       <div class="sec3_column">
         <img id="les_diners_de_gala_img" src="assets/images/books/les_diners_de_gala.jpeg" alt="Les Diners De Gala">
@@ -145,7 +139,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- Footer -->
   <footer style="background-color: #282828;">
