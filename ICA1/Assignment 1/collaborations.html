@@ -33,6 +33,43 @@
   <!-- w3schools -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+  <style>
+  @media screen and (max-width: 800px){
+    #hide_vid{
+      display: none;
+    }
+  }
+
+  #show_vid{
+    display: none;
+  }
+
+  @media screen and (max-width: 800px){
+    #show_vid{
+      display: block;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  #sec2_col{
+    margin-left: 50px;padding-left:45px;
+  }
+
+  @media screen and (max-width: 800px){
+    #sec2_col{
+      margin-left: 0px;padding-left:0px;
+    }
+  }
+
+  @media screen and (max-width: 800px){
+    #walt_disney_vid1{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+  </style>
+
 </head>
 
 <body style="font-family: 'Roboto Condensed', sans-serif; background-color: #282828">
@@ -72,7 +109,7 @@
               <a class="dropdown-item" href="collaborations.html">Collaborations</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="books.html">Books</a>
-              <div class="dropdown-divider"></div> 
+              <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="furniture.html">Furniture</a>
 
             </div>
@@ -90,7 +127,7 @@
     </nav>
   </header>
 
-  <section id="sec1" style="background-color: white;height:1800px;">
+  <section id="sec1" style="background-color: white;">
     <div id="sec1_block_design_bkg"></div>
     <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-sort-up"></i><br>Top</button>
     <div style="padding: 0px 60px 10px;">
@@ -104,17 +141,22 @@
       <!-- Film: Alfred Hitchcoc -->
       <div class="sec1_row">
         <div class="sec1_column" style="padding-right: 70px;">
-          <p style="padding: 0px;text-align: justify;text-justify: inter-word;">
+          <p id="alfred_hitchcock_description">
             In the 1940s, Alfred Hitchcock commissioned Dalí to help him create a dream sequence for Spellbound, his 1945 thriller starring Ingrid Bergman and Gregory Peck. “I wanted Dalí because of the architectural sharpness of his work,” Hitchcock explained in one of the extensive interviews he gave to fellow filmmaker François Truffaut in 1962. Hitchcock hoped that Dalí could bring some of the vivid imagery of his work to the dream sequence the movie called for, but the director got a bit more Surrealism than he bargained for. As Hitchcock told Truffaut, “Dalí had some strange ideas; he wanted a statue to crack like a shell falling apart, with ants crawling all over it, and underneath, there would be Ingrid Bergman, covered by the ants! It just wasn’t possible.”
           </p>
         </div>
 
         <div class="sec1_column">
-          <div id="alfred_hitchcock_title">
+          <div id="alfred_hitchcock_title1">
+            <p>ALFRED HITCHCOCK</p>
+          </div>
+          <div id="alfred_hitchcock_title2">
             <p>ALFRED HITCHCOCK</p>
           </div>
           <!-- Embbedded Videos about collabpration with Alfred Hitchcock -->
           <iframe id="alfred_hitchcock_vid1" class="responsive-iframe"src="https://www.youtube.com/embed/Hsuj5N3cDJY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <!-- <div id="sec1_block_design_bkg2"></div> -->
         </div>
       </div>
 
@@ -127,14 +169,17 @@
           </div>
           <br>
           <!-- Embbedded Video about collabpration with Walt Disney -->
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/hc_f9VDVsNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="hide_vid" class="responsive-iframe" src="https://www.youtube.com/embed/hc_f9VDVsNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <div class="sec2_column" style="margin-left: 50px;padding-left:45px;">
-          <p style="padding-left:60px;padding-bottom: 20px;margin-top:-90px;text-align: justify;text-justify: inter-word;">
+        <div id="sec2_col" class="sec2_column">
+          <p id="walt_disney_description">
             In the wake of his work with Hitchcock, Walt Disney approached Dalí in 1945 about joining Disney Studio to work on an animated film called Destino, featuring a score by Mexican composer Armando Dominguez. Dalí had drawn up 22 oil paintings and stacks of drawings, and he and legendary Disney designer John Hench created storyboards for the film. But only eight months after they started, the project was shelved for financial reasons, with only 15 seconds of demo reel completed. (Disney and Dalí remained friends despite the hiccup.) In 1999, Roy E. Disney, Walt’s nephew, decided to restart the production. Animators at Walt Disney Studios Paris painstakingly translated Dalí’s original storyboards to create a film faithful to his vision. The 6-minute short was released in 2003.
           </p>
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/y_TlaxmOKqs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="walt_disney_vid1" class="responsive-iframe" src="https://www.youtube.com/embed/y_TlaxmOKqs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <iframe id="show_vid" class="responsive-iframe" src="https://www.youtube.com/embed/hc_f9VDVsNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
       </div>
     </div>
