@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+.sticky_header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 130px;
+  background-color: #d3C4BE;
+}
+
+.books_title{
+  color: black;
+  font-family: 'Meddon', cursive;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 75px;
+}
+
+#the_persistence_of_memory_description{
+  padding: 60px 120px 0px 120px;
+  text-align: center;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 665px){
+  #the_persistence_of_memory_description{
+    padding: 60px 50px 30px 50px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 585px){
+  #the_persistence_of_memory_description{
+    padding: 60px 30px 30px 30px;
+    transition: 0.6s;
+  }
+}
+
+.row{
+  margin-top: -50px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#sec1_block_design_title{
+  position: inherit;
+  margin-top: 220px;
+  margin-left: 0px;
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1345px){
+  #sec1_block_design_title{
+    margin-top: 180px;
+    font-size: 35px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  #sec1_block_design_title{
+    margin-top: 160px;
+    margin-left: -30px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 995px){
+  #sec1_block_design_title{
+    margin-top: 140px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 930px){
+  #sec1_block_design_title{
+    margin-top: 130px;
+    font-size: 25px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 900px){
+  #sec1_block_design_title{
+    margin-top: 110px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 750px){
+  #sec1_block_design_title{
+    margin-top: 80px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 665px){
+  #sec1_block_design_title{
+    margin-left: -12px;
+    margin-top: 50px;
+    font-size: 22px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 596px){
+  #sec1_block_design_title{
+    margin-top: 42px;
+    margin-right: 10px;
+    transition: 0.6s;
+  }
+}
+
+
+@media screen and (max-width: 585px){
+  #sec1_block_design_title{
+    margin-top: 20px;
+    transition: 0.6s;
+  }
+}
+
+#sec1_block_design_text{
+  margin-right: 55px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1345px){
+  #sec1_block_design_text{
+    margin-right: 75px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  #sec1_block_design_text{
+    margin-left: -30px;
+    margin-right: 55px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 750px){
+  #sec1_block_design_text{
+    margin-left: -30px;
+    margin-right: 30px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 665px){
+  #sec1_block_design_text{
+    margin-left: -12px;
+    margin-right: 30px;
+    transition: 0.6s;
+  }
+}
+
+#the_secret_life_of_salvador_dali_img{
+  width: 100%;
+  border: 5px solid white;
+  padding: 60px;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 930px){
+  #the_secret_life_of_salvador_dali_img{
+    padding: 30px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 665px){
+  #the_secret_life_of_salvador_dali_img{
+    margin-left: 10px;
+    padding: 10px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 550px){
+  #the_secret_life_of_salvador_dali_img{
+    margin-top: 10px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 538px){
+  #the_secret_life_of_salvador_dali_img{
+    margin-top: 18px;
+    transition: 0.6s;
+  }
+}
+
+@media screen and (max-width: 512px){
+  #the_secret_life_of_salvador_dali_img{
+    margin-top: 25px;
+    transition: 0.6s;
+  }
+}
