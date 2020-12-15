@@ -4,6 +4,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+a:visited {
+  color: black;
+}
+
 .nav-item{
 	padding: 0px 20px;
 }
