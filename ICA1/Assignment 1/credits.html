@@ -251,6 +251,10 @@
       <img id="browser_svg" src="assets/images/raster_images/browser-1666982.svg" alt="honeycomb-background">
 
       <br><br><br><br>
+
+      <p id="p1">~ The End</p>
+
+      <br><br>
     </div>
   </section>
 
@@ -262,6 +266,17 @@
   </footer>
 
   <!-- Javascript -->
+  <script>
+  $(document).ready(function(){
+    $("#p1").hover(function(){
+      alert("This is the end of the website.");
+    },
+    function(){
+      alert("Bye! Thank you for visiting.");
+    });
+  });
+</script>
+
   <script src="/script.js" defer></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
