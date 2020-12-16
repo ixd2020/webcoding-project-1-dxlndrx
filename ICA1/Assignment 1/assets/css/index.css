@@ -15,20 +15,6 @@ hr{
   margin-bottom: 25px;
 }
 
-.salvador_dali_image{
-  background-image: url("assets/images/salvador_dali_image.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media screen and (max-width: 600px){
-  .salvador_dali_image{
-    background-image: url("assets/images/salvador_dali_image1.jpg");
-  }
-}
-
 .salvador_dali_name{
   position: absolute;
   top: 50%;
