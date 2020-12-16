@@ -254,6 +254,17 @@
 
       <p id="p1">~ The End</p>
 
+      <script>
+        $(document).ready(function(){
+          $("#p1").hover(function(){
+            alert("This is the end of the website.");
+          },
+          function(){
+            alert("Bye! Thank you for visiting.");
+          });
+        });
+      </script>
+
       <br><br>
     </div>
   </section>
@@ -266,20 +277,21 @@
   </footer>
 
   <!-- Javascript -->
-  <script>
-  $(document).ready(function(){
-    $("#p1").hover(function(){
-      alert("This is the end of the website.");
-    },
-    function(){
-      alert("Bye! Thank you for visiting.");
+  <!-- <script>
+    $(document).ready(function(){
+      $("#p1").hover(function(){
+        alert("This is the end of the website.");
+      },
+      function(){
+        alert("Bye! Thank you for visiting.");
+      });
     });
-  });
-</script>
+  </script> -->
 
-  <script src="/script.js" defer></script>
+  <!-- <script src="/script.js" defer></script> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <script>
   $(document).ready(function(){
     $("button").click(function(){
