@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Page Title -->
+  <title>WEBCODE Wk12 SDL</title>
+
+  <style>
+    hr{
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #dbdbdb;
+      margin: 1em 0; padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .row{
+      margin-top: 100px;
+      color: #525252;
+    }
+
+    .column{
+      float: left;
+      padding: 10px;
+      height: 300px;
+    }
+
+    .left{
+      width: 65%;
+    }
+
+    .right{
+      width: 35%;
+    }
+
+    .row:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .row1{
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .column1{
+      float: left;
+      padding: 5px;
+    }
+
+    .left1{
+      width: 5%;
+    }
+
+    .right1{
+      width: 45%;
+    }
+
+    .middle1{
+      width: 50%;
+    }
+
+    /* Clear floats after the columns */
+    .row1:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column2{
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    .row2:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .image{
+      height:180px;
+    }
+  </style>
+
+</head>
+
+<body style="background-color: white;">
+  <img style="width:10%;float:left;margin-top:5px;" src="images/today_logo.png">
+  <br>
+  <p style="float:right;font-size:14px;">Monday January 04, 2021</p>
+  <br><br><br>
+  <hr>
+  <p style="float:left;font-size:14px;"><b>&nbsp;&nbsp;Singapore &nbsp;&nbsp; World &nbsp;&nbsp; Big Read  &nbsp;&nbsp; Commentary &nbsp;&nbsp; Voices &nbsp;&nbsp; Videos &nbsp;&nbsp; Brand Spotlight &nbsp;&nbsp; 8 DAYS</b></p>
+  <div class="row" style="margin-top:80px;">
+    <div class="column left">
+      <p>
+        <img style="width:55%;float:right;margin-top:5px;padding:0px 10px;" src="images/today_img1.png">
+        <h2>35 new Covid-19 infections in Singapore, all imported;<br>highest daily number of such cases since March 28</h2>
+        SINGAPORE - Singapore on Sunday (Jan 3) recorded 35 new cases of Covid-19, all of which were imported.
+      </p>
+
+      <br><br><br>
+
+      <div class="row2" style="margin-top:110px;">
+        <div class="column2">
+          <img style="width:100%;float:right;" class="image" src="images/today_img7.jpg">
+          <h4>Torrential rainfall over weekend erodes slope in Pasir Ris, causes tree collapse at Fort Canning</h4>
+          <br>
+          <p style="font-size:12px;">By LOW YOUJIN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7 hours ago</p>
+        </div>
+        <div class="column2">
+          <img style="width:100%;float:right;" class="image" src="images/today_img8.jpg">
+          <h4>Youth in Action: They fight stigma surrounding HIV through science and stories</h4>
+          <br>
+          <p style="font-size:12px;">By LOW LATASHA SEOW AND NAVENE &nbsp;&nbsp;&nbsp;&nbsp; 1 day ago <br> ELANGOVAN</p>
+        </div>
+        <div class="column2">
+          <img style="width:100%;float:right;" class="image" src="images/today_img9.jpg">
+          <h4>Police investigating 44 people who took part in New Year’s Day gathering at industrial building</h4>
+          <br>
+          <p style="font-size:12px;float:right;">1 day ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column right">
+      <h2 style="margin:0px;">POPULAR</h2>
+
+      <div class="row1" style="margin-top:-10px;">
+        <div class="column1 left1">
+          <h1 style="color:#ba2929;">1</h1>
+        </div>
+        <div class="column1 middle1">
+          <img style="width:100%;margin-top:25px;padding:0px 10px;" src="images/today_img2.jpg">
+
+        </div>
+        <div class="column1 right1">
+          <h4>Rain and Kim Tae Hee Spent Just S$1.6K On Their Wedding</h4>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row1" style="margin-top:-20px;">
+        <div class="column1 left1">
+          <h1 style="color:#ba2929;">2</h1>
+        </div>
+        <div class="column1 middle1">
+          <img style="width:100%;margin-top:25px;padding:0px 10px;" src="images/today_img3.jpg">
+
+        </div>
+        <div class="column1 right1">
+          <h4>Pan Lingling and Huang Shinan Mark 24th Anniversary With Date At Golf Course Where They Took Their Wedding Photos</h4>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row1" style="margin-top:-20px;">
+        <div class="column1 left1">
+          <h1 style="color:#ba2929;">3</h1>
+        </div>
+        <div class="column1 middle1">
+          <img style="width:100%;margin-top:25px;padding:0px 10px;" src="images/today_img4.jpg">
+
+        </div>
+        <div class="column1 right1">
+          <h4>Edison Chen Uses A S$198K Louis Vuitton x Supreme Trunk As His 3-Year-Old Daughter's Toy Box</h4>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row1" style="margin-top:-20px;">
+        <div class="column1 left1">
+          <h1 style="color:#ba2929;">4</h1>
+        </div>
+        <div class="column1 middle1">
+          <img style="width:100%;margin-top:25px;padding:0px 10px;" src="images/today_img5.jpg">
+
+        </div>
+        <div class="column1 right1">
+          <h4>Kevin Cheng Called “Irresponsible" After Neglecting To Ensure Son’s Mask Was Worn Properly</h4>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row1" style="margin-top:-20px;">
+        <div class="column1 left1">
+          <h1 style="color:#ba2929;">5</h1>
+        </div>
+        <div class="column1 middle1">
+          <img style="width:100%;margin-top:25px;padding:0px 10px;" src="images/today_img6.jpg">
+
+        </div>
+        <div class="column1 right1">
+          <h4>Singapore startup develops app that reads vital signs via phone’s camera</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
